@@ -1,0 +1,7 @@
+my_string = input('Hey, buddy ')
+print(len(my_string))
+print('Hey, buddy'.upper())
+print('Hey, buddy'.lower())
+print('Hey, buddy'.replace(' ', ''))
+print('Hey, buddy'[0])
+print('Hey, buddy'[9])
