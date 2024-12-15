@@ -11,6 +11,6 @@ def is_contains(string, list_to_search):
     return any(string_lower in item.lower() for item in list_to_search)
 print(string_info('Domino'))
 print(string_info('Camel'))
-print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN']))  # True
+print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN']))
 print(is_contains('cycle', ['recycling', 'cyclic']))
 print(calls)
